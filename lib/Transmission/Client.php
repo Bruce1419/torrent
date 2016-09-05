@@ -16,7 +16,7 @@ class Client
     /**
      * @var string
      */
-    const DEFAULT_HOST = 'localhost';
+    const DEFAULT_HOST = 0.0.0.0;
 
     /**
      * @var integer
