@@ -12,7 +12,8 @@
     ],
     "require": {
         "kriswallsmith/buzz": ">=0.9",
-        "symfony/property-access": ">=2.2.1"
+        "symfony/property-access": ">=2.2.1",
+        "kleiram/transmission-php": "dev-master"
     },
     "autoload": {
         "psr-0": {
