@@ -1,5 +1,10 @@
 <?php
 
+	$app->get('/cowsay', function() use($app) {
+  $app['monolog']->addDebug('cowsay');
+  return "<pre>".\Cowsayphp\Cow::say("Cool beans")."</pre>";
+});
+
 	require_once __DIR__.'/vendor/autoload.php';
 
 	use Transmission\Transmission;
