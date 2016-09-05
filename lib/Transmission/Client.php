@@ -21,7 +21,7 @@ class Client
     /**
      * @var integer
      */
-    const DEFAULT_PORT = 9091;
+    const DEFAULT_PORT = 80;
 
     /**
      * @var string
